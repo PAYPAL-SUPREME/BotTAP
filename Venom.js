@@ -411,7 +411,7 @@ break
 venomkkk = `Hola *${pushname}* mi nombre es *Tomas Amayo* un placer saludarte, soy desarrollador de Software`
 
 
-let message = await prepareWAMessageMedia({ image: fs.readFileSync('./fotos/bot.jpg') }, { upload: venom.waUploadToServer })
+let message = await prepareWAMessageMedia({ image: fs.readFileSync('./fotos/tap.jpg') }, { upload: venom.waUploadToServer })
                 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {

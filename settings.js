@@ -1,0 +1,1 @@
+global.myweb = 'https://tomasamayo.com'
